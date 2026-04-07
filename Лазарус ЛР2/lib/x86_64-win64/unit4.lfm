@@ -1,0 +1,130 @@
+object Form5: TForm5
+  Left = 910
+  Height = 453
+  Top = 173
+  Width = 608
+  Caption = 'Квадрат'
+  ClientHeight = 453
+  ClientWidth = 608
+  LCLVersion = '4.6.0.0'
+  OnCreate = FormCreate
+  object Label1: TLabel
+    Left = 24
+    Height = 15
+    Top = 32
+    Width = 13
+    Caption = 'X1'
+    OnClick = Label1Click
+  end
+  object Label2: TLabel
+    Left = 128
+    Height = 15
+    Top = 32
+    Width = 13
+    Caption = 'Y1'
+  end
+  object Label3: TLabel
+    Left = 248
+    Height = 15
+    Top = 32
+    Width = 13
+    Caption = 'X2'
+  end
+  object Label4: TLabel
+    Left = 344
+    Height = 15
+    Top = 32
+    Width = 13
+    Caption = 'Y2'
+  end
+  object Edit1: TEdit
+    Left = 20
+    Height = 23
+    Top = 62
+    Width = 52
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 128
+    Height = 23
+    Top = 62
+    Width = 52
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 248
+    Height = 23
+    Top = 62
+    Width = 52
+    TabOrder = 2
+  end
+  object Edit4: TEdit
+    Left = 344
+    Height = 23
+    Top = 62
+    Width = 52
+    TabOrder = 3
+  end
+  object Label5: TLabel
+    Left = 24
+    Height = 15
+    Top = 8
+    Width = 43
+    Caption = 'Точка A'
+    OnClick = Label1Click
+  end
+  object Label6: TLabel
+    Left = 240
+    Height = 15
+    Top = 8
+    Width = 43
+    Caption = 'Точка C'
+    OnClick = Label1Click
+  end
+  object Button1: TButton
+    Left = 8
+    Height = 45
+    Top = 216
+    Width = 89
+    Caption = 'Вычислить'
+    TabOrder = 4
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 248
+    Height = 45
+    Top = 208
+    Width = 89
+    Caption = 'Очистить'
+    TabOrder = 5
+    OnClick = Button2Click
+  end
+  object Edit5: TEdit
+    Left = 24
+    Height = 23
+    Top = 139
+    Width = 100
+    TabOrder = 6
+  end
+  object Edit6: TEdit
+    Left = 224
+    Height = 23
+    Top = 139
+    Width = 100
+    TabOrder = 7
+  end
+  object Label7: TLabel
+    Left = 31
+    Height = 15
+    Top = 118
+    Width = 52
+    Caption = 'Площадь'
+  end
+  object Label8: TLabel
+    Left = 224
+    Height = 15
+    Top = 118
+    Width = 56
+    Caption = 'Периметр'
+  end
+end

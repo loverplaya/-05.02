@@ -1,0 +1,67 @@
+object Form1: TForm1
+  Left = 675
+  Height = 446
+  Top = 510
+  Width = 817
+  Caption = 'Значение функции'
+  ClientHeight = 446
+  ClientWidth = 817
+  LCLVersion = '4.2.0.0'
+  OnCreate = FormCreate
+  object Label1: TLabel
+    Left = 33
+    Height = 15
+    Top = 40
+    Width = 106
+    Caption = 'Введите значение x'
+  end
+  object Label2: TLabel
+    Left = 33
+    Height = 15
+    Top = 96
+    Width = 105
+    Caption = 'Значение функции'
+  end
+  object Button1: TButton
+    Left = 59
+    Height = 20
+    Top = 176
+    Width = 103
+    Caption = 'Вычислить'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Edit1: TEdit
+    Left = 200
+    Height = 23
+    Top = 40
+    Width = 135
+    TabOrder = 1
+    OnChange = Edit1Change
+  end
+  object Edit2: TEdit
+    Left = 200
+    Height = 23
+    Top = 96
+    Width = 135
+    TabOrder = 2
+  end
+  object Button2: TButton
+    Left = 240
+    Height = 19
+    Top = 175
+    Width = 129
+    Caption = 'Очистить'
+    TabOrder = 3
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 633
+    Height = 23
+    Top = 13
+    Width = 140
+    Caption = 'Второе задание'
+    TabOrder = 4
+    OnClick = Button3Click
+  end
+end
